@@ -1,0 +1,8 @@
+name: OS Info
+on: workflow_dispatch
+jobs:
+  os-info-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print OS information
+        run: uname -V
