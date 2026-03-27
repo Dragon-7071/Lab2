@@ -2,7 +2,7 @@ name: OS Info
 on: workflow_dispatch
 jobs:
   os-info-job:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Print OS information
-        run: uname -V
+        run: systeminfo
